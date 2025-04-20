@@ -15,7 +15,7 @@ This repository contains comprehensive notes and resources for the CSE4267 Cloud
 
 <div align="center">
 
-![Cloud Computing Concept](1662635777501.png)
+![Cloud Computing Concept](Images/1662635777501.png)
 
 </div>
 
@@ -45,13 +45,13 @@ This repository contains comprehensive notes and resources for the CSE4267 Cloud
 
 ## Course Materials
 
-| Category                     | Description                                       | Files                                                                                                                                                                                          |
-| ---------------------------- | ------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Comprehensive Notes**      | Detailed course notes covering all major topics   | [cloud_computing_note.md](cloud_computing_notes.md), [cloud_overview.md](cloud_overview.md)                                                                                                    |
-| **PowerPoint Presentations** | Lecture slides for each topic                     | [View All Slides](#lecture-slides)                                                                                                                                                             |
-| **PDF Resources**            | Additional reading materials and reference guides | [Cloud Computing for Dummies](Cloud-Computing-for-Dummies-Judith-Hurwitz-Robin-Bloor-Marcia-Kaufman-Fern-Halper-Edisi-1-2010.pdf), [Course Outline](CSE4267%20Cloud%20Computing%20Outline.pdf) |
-| **Exam Preparation**         | Materials to help with test preparation           | [Exam Tips](Cloud-Computing-Exam-Tips.pdf), [Practice Questions](AWS-Service-Question-Examples.pdf)                                                                                            |
-| **Cheat Sheets**             | Quick reference guides                            | [Docker Cheatsheet](docker_cheatsheet.pdf), [Linux Command Line](Linux%20Command%20Line%20Cheat%20Sheet.pdf)                                                                                   |
+| Category                     | Description                                       | Files                                                                                                                                                                                                |
+| ---------------------------- | ------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Comprehensive Notes**      | Detailed course notes covering all major topics   | [cloud_computing_note.md](cloud_computing_notes.md), [cloud_overview.md](cloud_overview.md)                                                                                                          |
+| **PowerPoint Presentations** | Lecture slides for each topic                     | [View All Slides](#lecture-slides)                                                                                                                                                                   |
+| **PDF Resources**            | Additional reading materials and reference guides | [Cloud Computing for Dummies](PDFs/Cloud-Computing-for-Dummies-Judith-Hurwitz-Robin-Bloor-Marcia-Kaufman-Fern-Halper-Edisi-1-2010.pdf), [Course Outline](<PDFs/CSE4267 Cloud Computing Outline.pdf>) |
+| **Exam Preparation**         | Materials to help with test preparation           | [Exam Tips](PDFs/Cloud-Computing-Exam-Tips.pdf), [Practice Questions](PDFs/AWS-Service-Question-Examples.pdf)                                                                                        |
+| **Cheat Sheets**             | Quick reference guides                            | [Docker Cheatsheet](PDFs/docker_cheatsheet.pdf), [Linux Command Line](<PDFs/Linux Command Line Cheat Sheet.pdf>)                                                                                     |
 
 ## Key Topics Overview
 
@@ -163,57 +163,57 @@ ssh user@host    # Connect to remote host
 
 - [AWS Certified Cloud Practitioner](https://aws.amazon.com/certification/certified-cloud-practitioner/)
 - [AWS Certified Solutions Architect](https://aws.amazon.com/certification/certified-solutions-architect-associate/)
-- [Practice Exams](AWS-Service-Question-Examples.pdf)
-- [Class Test Examples](Class%20Test%201.pdf)
+- [Practice Exams](PDFs/AWS-Service-Question-Examples.pdf)
+- [Class Test Examples](<PDFs/Class Test 1.pdf>)
 
 ## Shared Responsibility Model
 
 <div align="center">
 
-![AWS Shared Responsibility Model](Shared_Responsibility_Model_V2.59d1eccec334b366627e9295b304202faf7b899b.jpg)
+![AWS Shared Responsibility Model](Images/Shared_Responsibility_Model_V2.59d1eccec334b366627e9295b304202faf7b899b.jpg)
 
 </div>
 
 ## Lecture Slides
 
-| Topic                                | Presentation                                                                                             |
-| ------------------------------------ | -------------------------------------------------------------------------------------------------------- |
-| Introduction to Cloud Computing      | [Slides](1.%20Introduction%20to%20Cloud%20Computing.pptx)                                                |
-| Resource Sharing in the Cloud        | [Slides](2.%20Resource%20Sharing%20in%20the%20Cloud.pptx)                                                |
-| Challenges and Risks                 | [Slides](3.%20Challenges%20and%20Risks%20in%20Cloud%20Computing.pptx)                                    |
-| Cloud Service Models                 | [Slides](4.%20Cloud%20Service%20Models.pptx)                                                             |
-| IaaS (Amazon EC2)                    | [Slides](<5.%20IaaS%20(Amazon%20EC2).pptx>)                                                              |
-| Amazon S3                            | [Slides](6.%20Amazon%20S3.pptx)                                                                          |
-| AWS IAM                              | [Slides](<7.%20AWS%20IAM%20(Identity%20and%20Access%20Management).pptx>)                                 |
-| AWS VPC                              | [Slides](<8.%20AWS%20VPC%20(Virtual%20Private%20Cloud).pptx>)                                            |
-| Introduction to Linux                | [Slides](9.%20Introduction%20to%20Linux.pptx)                                                            |
-| AWS Auto Scaling and Load Balancing  | [Slides](10.%20AWS%20Auto%20Scaling%20and%20Load%20Balancing.pptx)                                       |
-| Amazon SQS & SNS                     | [Slides](11.%20Amazon%20SQS%20%26%20SNS.pptx)                                                            |
-| AWS Route 53                         | [Slides](<12.%20AWS%20Route%2053%20(DNS).pptx>)                                                          |
-| AWS SES                              | [Slides](<13.%20AWS%20SES%20(Simple%20Email%20Service).pptx>)                                            |
-| Data Centers                         | [Slides](14.%20Data%20Centers.pptx)                                                                      |
-| Virtualization                       | [Slides](15.%20Virtualization.pptx)                                                                      |
-| Containerization                     | [Slides](16.%20Containerization_%20Application%20Deployment.pptx)                                        |
-| Docker                               | [Slides](17.%20Docker_%20Containerization%20Simplified.pptx)                                             |
-| Kubernetes                           | [Slides](18.%20Introduction%20to%20Kubernetes.pptx)                                                      |
-| API Gateway                          | [Slides](19.%20Understanding%20API%20Gateway.pptx)                                                       |
-| Amazon CloudFront                    | [Slides](20.%20Amazon%20CloudFront.pptx)                                                                 |
-| Amazon RDS                           | [Slides](21.%20Amazon%20RDS.pptx)                                                                        |
-| AWS Security                         | [Slides](22.%20AWS%20Security_%20KMS%2C%20WAF%2C%20and%20Shield.pptx)                                    |
-| Capacity Planning & Cloud Brokers    | [Slides](23.%20Capacity%20Planning%20%26%20Cloud%20Brokers.pptx)                                         |
-| Service-Level Agreements             | [Slides](<24.%20Service-Level%20Agreements%20(SLAs)%20%20in%20Cloud%20Computing.pptx>)                   |
-| CI/CD                                | [Slides](25.%20CI_CD_%20Streamlining%20Software%20Delivery.pptx)                                         |
-| Serverless Computing with AWS Lambda | [Slides](26.%20Serverless%20Computing%20with%20AWS%20Lambda.pptx)                                        |
-| Monitoring & Logging in AWS          | [Slides](<27.%20Monitoring%20%26%20Logging%20in%20AWS%20(CloudWatch%2C%20CloudTrail%2C%20Logging).pptx>) |
-| AWS Budget and Cost Optimisation     | [Slides](28.%20AWS%20Budget%20and%20Cost%20Optimisation.pptx)                                            |
-| Cloud Operating Systems and Servers  | [Slides](29.%20Cloud%20Operating%20Systems%20and%20Servers.pptx)                                         |
-| Revision Class                       | [Slides](30.%20REVISION%20CLASS.pptx)                                                                    |
-| All Topics Combined                  | [Slides](CloudComputingAll.pptx)                                                                         |
+| Topic                                | Presentation                                                                                         |
+| ------------------------------------ | ---------------------------------------------------------------------------------------------------- |
+| Introduction to Cloud Computing      | [Slides](<Powerpoint Slides/1. Introduction to Cloud Computing.pptx>)                                |
+| Resource Sharing in the Cloud        | [Slides](<Powerpoint Slides/2. Resource Sharing in the Cloud.pptx>)                                  |
+| Challenges and Risks                 | [Slides](<Powerpoint Slides/3. Challenges and Risks in Cloud Computing.pptx>)                        |
+| Cloud Service Models                 | [Slides](<Powerpoint Slides/4. Cloud Service Models.pptx>)                                           |
+| IaaS (Amazon EC2)                    | [Slides](<Powerpoint Slides/5. IaaS (Amazon EC2).pptx>)                                              |
+| Amazon S3                            | [Slides](<Powerpoint Slides/6. Amazon S3.pptx>)                                                      |
+| AWS IAM                              | [Slides](<Powerpoint Slides/7. AWS IAM (Identity and Access Management).pptx>)                       |
+| AWS VPC                              | [Slides](<Powerpoint Slides/8. AWS VPC (Virtual Private Cloud).pptx>)                                |
+| Introduction to Linux                | [Slides](<Powerpoint Slides/9. Introduction to Linux.pptx>)                                          |
+| AWS Auto Scaling and Load Balancing  | [Slides](<Powerpoint Slides/10. AWS Auto Scaling and Load Balancing.pptx>)                           |
+| Amazon SQS & SNS                     | [Slides](<Powerpoint Slides/11. Amazon SQS & SNS.pptx>)                                              |
+| AWS Route 53                         | [Slides](<Powerpoint Slides/12. AWS Route 53 (DNS).pptx>)                                            |
+| AWS SES                              | [Slides](<Powerpoint Slides/13. AWS SES (Simple Email Service).pptx>)                                |
+| Data Centers                         | [Slides](<Powerpoint Slides/14. Data Centers.pptx>)                                                  |
+| Virtualization                       | [Slides](<Powerpoint Slides/15. Virtualization.pptx>)                                                |
+| Containerization                     | [Slides](<Powerpoint Slides/16. Containerization_ Application Deployment.pptx>)                      |
+| Docker                               | [Slides](<Powerpoint Slides/17. Docker_ Containerization Simplified.pptx>)                           |
+| Kubernetes                           | [Slides](<Powerpoint Slides/18. Introduction to Kubernetes.pptx>)                                    |
+| API Gateway                          | [Slides](<Powerpoint Slides/19. Understanding API Gateway.pptx>)                                     |
+| Amazon CloudFront                    | [Slides](<Powerpoint Slides/20. Amazon CloudFront.pptx>)                                             |
+| Amazon RDS                           | [Slides](<Powerpoint Slides/21. Amazon RDS.pptx>)                                                    |
+| AWS Security                         | [Slides](<Powerpoint Slides/22. AWS Security_ KMS, WAF, and Shield.pptx>)                            |
+| Capacity Planning & Cloud Brokers    | [Slides](<Powerpoint Slides/23. Capacity Planning & Cloud Brokers.pptx>)                             |
+| Service-Level Agreements             | [Slides](<Powerpoint Slides/24. Service-Level Agreements (SLAs)  in Cloud Computing.pptx>)           |
+| CI/CD                                | [Slides](<Powerpoint Slides/25. CI_CD_ Streamlining Software Delivery.pptx>)                         |
+| Serverless Computing with AWS Lambda | [Slides](<Powerpoint Slides/26. Serverless Computing with AWS Lambda.pptx>)                          |
+| Monitoring & Logging in AWS          | [Slides](<Powerpoint Slides/27. Monitoring & Logging in AWS (CloudWatch, CloudTrail, Logging).pptx>) |
+| AWS Budget and Cost Optimisation     | [Slides](<Powerpoint Slides/28. AWS Budget and Cost Optimisation.pptx>)                              |
+| Cloud Operating Systems and Servers  | [Slides](<Powerpoint Slides/29. Cloud Operating Systems and Servers.pptx>)                           |
+| Revision Class                       | [Slides](<Powerpoint Slides/30. REVISION CLASS.pptx>)                                                |
+| All Topics Combined                  | [Slides](PDFs/CloudComputingAll.pptx)                                                                |
 
 ## Cheat Sheets
 
-- [Docker Cheatsheet](docker_cheatsheet.pdf)
-- [Linux Command Line Cheat Sheet](Linux%20Command%20Line%20Cheat%20Sheet.pdf)
+- [Docker Cheatsheet](PDFs/docker_cheatsheet.pdf)
+- [Linux Command Line Cheat Sheet](<PDFs/Linux Command Line Cheat Sheet.pdf>)
 
 ## Online Learning Resources
 
