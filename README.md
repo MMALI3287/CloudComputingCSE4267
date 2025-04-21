@@ -1,23 +1,15 @@
 # CSE4267 Cloud Computing Course Notes 📚☁️
 
-<div align="center">
-
 [![AWS](https://img.shields.io/badge/AWS-Cloud_Computing-orange?style=for-the-badge&logo=amazon-aws)](https://aws.amazon.com/)
 [![Docker](https://img.shields.io/badge/Docker-Containerization-blue?style=for-the-badge&logo=docker)](https://www.docker.com/)
 [![Kubernetes](https://img.shields.io/badge/Kubernetes-Orchestration-blue?style=for-the-badge&logo=kubernetes)](https://kubernetes.io/)
 [![Linux](https://img.shields.io/badge/Linux-OS-yellow?style=for-the-badge&logo=linux)](https://www.linux.org/)
 
-</div>
-
 ## 📋 Overview
 
 This repository contains comprehensive notes and resources for the CSE4267 Cloud Computing course. These materials cover fundamental cloud computing concepts, AWS services, containerization, virtualization, and related technologies to help students understand and master cloud computing principles.
 
-<div align="center">
-
 ![Cloud Computing Concept](Images/1662635777501.png)
-
-</div>
 
 ## 📑 Table of Contents
 
@@ -55,8 +47,6 @@ This repository contains comprehensive notes and resources for the CSE4267 Cloud
 
 ## Key Topics Overview
 
-<div align="center">
-
 ```mermaid
 mindmap
   root((Cloud Computing))
@@ -88,8 +78,6 @@ mindmap
       Shared Responsibility
       Future Trends
 ```
-
-</div>
 
 ## AWS Services Quick Reference
 
@@ -168,11 +156,7 @@ ssh user@host    # Connect to remote host
 
 ## Shared Responsibility Model
 
-<div align="center">
-
 ![AWS Shared Responsibility Model](Images/Shared_Responsibility_Model_V2.59d1eccec334b366627e9295b304202faf7b899b.jpg)
-
-</div>
 
 ## Lecture Slides
 

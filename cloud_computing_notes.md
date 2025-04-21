@@ -1,6 +1,8 @@
 # Cloud Computing Technical Notes
 
 > **Note:** This file contains detailed technical information that supplements the main [README.md](README.md). For an overview of cloud computing concepts, AWS services, and course materials, please refer to the README.
+>
+> Each section includes relevant video resources directly after the content for easier reference and learning.
 
 ## Table of Contents
 
@@ -33,15 +35,21 @@
       - [Route 53 Features](#route-53-features)
     - [CloudFront](#cloudfront)
       - [CloudFront Features](#cloudfront-features)
+    - [CloudFront Videos](#cloudfront-videos)
     - [Relational Database Service (RDS)](#relational-database-service-rds)
       - [Supported Database Engines](#supported-database-engines)
       - [RDS Features](#rds-features)
+    - [RDS Videos](#rds-videos)
     - [Security Services (KMS, WAF, Shield)](#security-services-kms-waf-shield)
       - [AWS Key Management Service (KMS)](#aws-key-management-service-kms)
+        - [KMS Videos](#kms-videos)
       - [AWS Web Application Firewall (WAF)](#aws-web-application-firewall-waf)
+        - [WAF Videos](#waf-videos)
       - [AWS Shield](#aws-shield)
+        - [Shield Videos](#shield-videos)
     - [API Gateway](#api-gateway)
       - [API Gateway Features](#api-gateway-features)
+    - [API Gateway Videos](#api-gateway-videos)
   - [Containerization - Advanced Topics](#containerization---advanced-topics)
     - [Docker](#docker)
       - [Docker Components](#docker-components)
@@ -52,35 +60,47 @@
   - [Serverless Computing](#serverless-computing)
     - [AWS Lambda](#aws-lambda)
       - [Lambda Limitations](#lambda-limitations)
+    - [Serverless Videos](#serverless-videos)
   - [Monitoring and Logging](#monitoring-and-logging)
     - [CloudWatch](#cloudwatch)
       - [CloudWatch Features](#cloudwatch-features)
     - [CloudTrail](#cloudtrail)
       - [CloudTrail Features](#cloudtrail-features)
+    - [Monitoring \& Logging Videos](#monitoring--logging-videos)
   - [Cost Management](#cost-management)
     - [AWS Budget and Cost Optimization](#aws-budget-and-cost-optimization)
       - [AWS Cost Explorer](#aws-cost-explorer)
       - [AWS Budgets](#aws-budgets)
       - [Cost Optimization Strategies](#cost-optimization-strategies)
+    - [Cost Management Videos](#cost-management-videos)
   - [Linux for Cloud Computing](#linux-for-cloud-computing)
     - [Bash Scripting](#bash-scripting)
   - [Additional Detailed Course Notes](#additional-detailed-course-notes)
   - [1. Definition of Cloud Computing](#1-definition-of-cloud-computing)
+    - [Introduction to Cloud Computing](#introduction-to-cloud-computing)
   - [2. Evolution of Computing](#2-evolution-of-computing)
   - [3. Key Characteristics of Cloud Computing](#3-key-characteristics-of-cloud-computing)
   - [4. Cloud Service Models (IaaS, PaaS, SaaS)](#4-cloud-service-models-iaas-paas-saas)
+    - [Cloud Service Models](#cloud-service-models)
   - [5. Cloud Deployment Models](#5-cloud-deployment-models)
   - [6. Benefits of Cloud Computing](#6-benefits-of-cloud-computing)
   - [7. Challenges in Cloud Computing](#7-challenges-in-cloud-computing)
   - [8. Resource Sharing in the Cloud](#8-resource-sharing-in-the-cloud)
   - [9. AWS Core Services Deep Dive](#9-aws-core-services-deep-dive)
     - [Amazon EC2 (Elastic Compute Cloud)](#amazon-ec2-elastic-compute-cloud)
+      - [IaaS (Amazon EC2)](#iaas-amazon-ec2)
     - [Amazon S3 (Simple Storage Service)](#amazon-s3-simple-storage-service)
+      - [Amazon S3](#amazon-s3)
     - [AWS IAM (Identity and Access Management)](#aws-iam-identity-and-access-management)
+      - [AWS IAM](#aws-iam)
     - [AWS VPC (Virtual Private Cloud)](#aws-vpc-virtual-private-cloud)
+      - [AWS VPC](#aws-vpc)
     - [AWS Auto Scaling and Load Balancing](#aws-auto-scaling-and-load-balancing)
+      - [Auto Scaling and Load Balancing Videos](#auto-scaling-and-load-balancing-videos)
     - [Amazon SQS \& SNS](#amazon-sqs--sns)
+      - [SQS \& SNS Videos](#sqs--sns-videos)
     - [AWS Route 53 (DNS)](#aws-route-53-dns)
+      - [Route 53 Videos](#route-53-videos)
     - [AWS SES (Simple Email Service)](#aws-ses-simple-email-service)
     - [Amazon CloudFront (CDN)](#amazon-cloudfront-cdn)
     - [Amazon RDS (Relational Database Service)](#amazon-rds-relational-database-service)
@@ -91,15 +111,22 @@
     - [AWS CloudFormation (IaC)](#aws-cloudformation-iac)
     - [AWS Cost Management (Budgets, Cost Explorer, Pricing Calculator)](#aws-cost-management-budgets-cost-explorer-pricing-calculator)
   - [10. Data Centers](#10-data-centers)
+    - [Data Centers Videos](#data-centers-videos)
   - [11. Virtualization](#11-virtualization)
+    - [Virtualization Videos](#virtualization-videos)
   - [12. Containerization (Docker \& Kubernetes)](#12-containerization-docker--kubernetes)
+    - [Containerization Videos](#containerization-videos)
+    - [Docker Videos](#docker-videos)
+    - [Kubernetes Videos](#kubernetes-videos)
   - [13. Linux Introduction](#13-linux-introduction)
+    - [Linux Videos](#linux-videos)
   - [14. Service-Level Agreements (SLAs)](#14-service-level-agreements-slas)
+    - [SLA Videos](#sla-videos)
   - [15. CI/CD (Continuous Integration/Continuous Deployment)](#15-cicd-continuous-integrationcontinuous-deployment)
+    - [CI/CD Videos](#cicd-videos)
   - [16. Cloud Operating Systems](#16-cloud-operating-systems)
   - [17. Shared Responsibility Model](#17-shared-responsibility-model)
   - [18. Future Trends \& Careers](#18-future-trends--careers)
-  - [19. Course Recap \& Quiz Topics](#19-course-recap--quiz-topics)
 
 ---
 
@@ -271,6 +298,12 @@ Amazon CloudFront is a fast content delivery network (CDN) service that securely
 - **Programmable**: Customizable with Lambda@Edge
 - **Origin Support**: Works with various AWS and non-AWS origins
 
+### CloudFront Videos
+
+IBM: Introduction to Amazon CloudFront
+
+[![Introduction to Amazon CloudFront](https://img.youtube.com/vi/AT-nHW3_SVI/0.jpg)](https://www.youtube.com/watch?v=AT-nHW3_SVI)
+
 ### Relational Database Service (RDS)
 
 Amazon RDS makes it easy to set up, operate, and scale a relational database in the cloud.
@@ -291,6 +324,12 @@ Amazon RDS makes it easy to set up, operate, and scale a relational database in 
 - **Multi-AZ Deployments**: Enhanced availability and durability
 - **Read Replicas**: Improved read performance and data durability
 
+### RDS Videos
+
+IBM: Amazon RDS Custom Overview
+
+[![Amazon RDS Custom Overview](https://img.youtube.com/vi/GvUaA9cygUk/0.jpg)](https://www.youtube.com/watch?v=GvUaA9cygUk)
+
 ### Security Services (KMS, WAF, Shield)
 
 #### AWS Key Management Service (KMS)
@@ -301,6 +340,12 @@ Manages encryption keys for secure data storage and operations.
 - **Key Rotation**: Automatic or manual rotation of keys
 - **Integration**: Works with many AWS services
 
+##### KMS Videos
+
+AWS Key Management Service (KMS)
+
+[![AWS KMS](https://img.youtube.com/vi/8Z0wsE2HoSo/0.jpg)](https://www.youtube.com/watch?v=8Z0wsE2HoSo)
+
 #### AWS Web Application Firewall (WAF)
 
 Protects web applications from common web exploits.
@@ -309,12 +354,24 @@ Protects web applications from common web exploits.
 - **Rule Groups**: Reusable sets of rules
 - **Security Automation**: Integration with AWS security services
 
+##### WAF Videos
+
+AWS Web Application Firewall (WAF)
+
+[![AWS WAF](https://img.youtube.com/vi/nUI7G9UzyN8/0.jpg)](https://www.youtube.com/watch?v=nUI7G9UzyN8)
+
 #### AWS Shield
 
 Managed Distributed Denial of Service (DDoS) protection service.
 
 - **Shield Standard**: Automatic protection for all AWS customers
 - **Shield Advanced**: Enhanced protection for higher-level threats
+
+##### Shield Videos
+
+AWS Shield
+
+[![AWS Shield](https://img.youtube.com/vi/7rgiXEa0_jE/0.jpg)](https://www.youtube.com/watch?v=7rgiXEa0_jE)
 
 ### API Gateway
 
@@ -327,6 +384,16 @@ Amazon API Gateway is a fully managed service for creating, publishing, maintain
 - **Integration**: Connect to AWS services and non-AWS services
 - **Security**: Authorization, authentication, and access control
 - **Monitoring**: CloudWatch integration for API metrics
+
+### API Gateway Videos
+
+ByteByteGo: What is API Gateway?
+
+[![What is API Gateway?](https://img.youtube.com/vi/6ULyxuHKxg8/0.jpg)](https://www.youtube.com/watch?v=6ULyxuHKxg8)
+
+IBM: What is an API Gateway?
+
+[![IBM: What is an API Gateway?](https://img.youtube.com/vi/hWRRdICvMNs/0.jpg)](https://www.youtube.com/watch?v=hWRRdICvMNs)
 
 ---
 
@@ -412,6 +479,12 @@ AWS Lambda is a serverless compute service that runs your code in response to ev
 - Deployment package size limit
 - Temporary disk space limitation
 
+### Serverless Videos
+
+AWS: Introduction to AWS Lambda
+
+[![Introduction to AWS Lambda](https://img.youtube.com/vi/eOBq__h4OJ4/0.jpg)](https://www.youtube.com/watch?v=eOBq__h4OJ4)
+
 ---
 
 ## Monitoring and Logging
@@ -439,6 +512,12 @@ AWS CloudTrail is a service that enables governance, compliance, operational aud
 - **Insights**: Identify unusual activity
 - **Log File Validation**: Verify log file integrity
 
+### Monitoring & Logging Videos
+
+AWS Cloudwatch vs Cloudtrail
+
+[![AWS Cloudwatch vs Cloudtrail](https://img.youtube.com/vi/S5X0PnBwp9I/0.jpg)](https://www.youtube.com/watch?v=S5X0PnBwp9I)
+
 ---
 
 ## Cost Management
@@ -460,6 +539,16 @@ Set custom budgets to track costs and usage, and receive alerts when thresholds 
 - **Leverage Reserved Instances**: Commit to usage for discounts
 - **Use Spot Instances**: For fault-tolerant workloads
 - **Monitor and Analyze**: Regularly review usage and spending
+
+### Cost Management Videos
+
+AWS: AWS Cost Optimisation Series: AWS Budgets
+
+[![AWS Budgets](https://img.youtube.com/vi/5vYEVQzoMeM/0.jpg)](https://www.youtube.com/watch?v=5vYEVQzoMeM)
+
+AWS: Cloud Cost Management: Optimization Strategies
+
+[![Cloud Cost Management](https://img.youtube.com/vi/FFzrxlmrVAc/0.jpg)](https://www.youtube.com/watch?v=FFzrxlmrVAc)
 
 ---
 
@@ -499,6 +588,12 @@ echo "Backup completed: $BACKUP_FILE"
 - **Analogy**: Similar to utility services (electricity, water) – on-demand, scalable, pay-as-you-go.
 - **Core Idea**: Accessing resources remotely instead of owning and managing physical infrastructure.
 
+### Introduction to Cloud Computing
+
+AWS: What is Cloud Computing?
+
+[![AWS: What is Cloud Computing?](https://img.youtube.com/vi/mxT233EdY5c/0.jpg)](https://www.youtube.com/watch?v=mxT233EdY5c)
+
 ## 2. Evolution of Computing
 
 - **Mainframe Era (1950s-1970s)**: Centralized computing, large organizations.
@@ -522,6 +617,20 @@ echo "Backup completed: $BACKUP_FILE"
   - **PaaS (Platform as a Service)**: Pizza Delivered (provider manages infrastructure, OS, runtime; you manage application/code). _Examples: AWS Elastic Beanstalk, Google App Engine, Heroku._ Simplifies development, limited environment control.
   - **SaaS (Software as a Service)**: Dining Out (provider manages everything; you use the software). _Examples: Gmail, Dropbox, Salesforce, Microsoft Office 365._ Easy to use, limited customization.
 - **Responsibility Sharing**: Varies by model. Users manage more in IaaS, less in PaaS, and least in SaaS. (See slide 13/463/464 diagrams).
+
+### Cloud Service Models
+
+IBM: IaaS Explained
+
+[![IBM: IaaS Explained](https://img.youtube.com/vi/XRdmfo4M_YA/0.jpg)](https://www.youtube.com/watch?v=XRdmfo4M_YA)
+
+IBM: PaaS Explained
+
+[![IBM: PaaS Explained](https://img.youtube.com/vi/QAbqJzd0PEE/0.jpg)](https://www.youtube.com/watch?v=QAbqJzd0PEE)
+
+IBM: Software as a Service (SaaS) Explained in 5 mins
+
+[![IBM: Software as a Service (SaaS) Explained](https://img.youtube.com/vi/20QUNgFIrK0/0.jpg)](https://www.youtube.com/watch?v=20QUNgFIrK0)
 
 ## 5. Cloud Deployment Models
 
@@ -582,6 +691,12 @@ echo "Backup completed: $BACKUP_FILE"
 - **EC2 Auto Scaling**: Automatically adjusts the number of EC2 instances. Components: Scaling Groups, Scaling Policies.
 - **Networking**: Elastic IP Addresses (static IPs), Load Balancers (ALB, NLB), VPC Peering.
 
+#### IaaS (Amazon EC2)
+
+AWS: What is Amazon EC2?
+
+[![What is Amazon EC2?](https://img.youtube.com/vi/t48aVpw6kkI/0.jpg)](https://www.youtube.com/watch?v=t48aVpw6kkI)
+
 ### Amazon S3 (Simple Storage Service)
 
 - **Definition**: Scalable object storage service (store and retrieve any amount of data).
@@ -602,6 +717,12 @@ echo "Backup completed: $BACKUP_FILE"
 - **Pricing**: Based on Storage (GB/month), Data Transfer (Outbound), Requests (GET, PUT, etc.), Glacier Retrieval speed.
 - **Best Practices**: Enable Versioning, Use Lifecycle Policies, Secure Data (Encryption, IAM), Monitor Usage (CloudWatch).
 
+#### Amazon S3
+
+AWS: Introduction to Amazon S3
+
+[![Introduction to Amazon S3](https://img.youtube.com/vi/ecv-19sYL3w/0.jpg)](https://www.youtube.com/watch?v=ecv-19sYL3w)
+
 ### AWS IAM (Identity and Access Management)
 
 - **Definition**: Securely manage access to AWS services and resources. Free service (pay for resources used).
@@ -613,6 +734,12 @@ echo "Backup completed: $BACKUP_FILE"
   - **Policies**: JSON documents defining permissions (Actions, Resources, Effect: Allow/Deny). Types: AWS Managed, Customer Managed, Inline.
 - **Relationship**: Users belong to Groups; Policies attached to Groups/Users/Roles; Roles assumed by Users/Services.
 - **Best Practices**: Enable MFA, Principle of Least Privilege, Rotate access keys, Use Roles instead of shared credentials, Monitor activity with CloudTrail.
+
+#### AWS IAM
+
+AWS: Identity and Access Management
+
+[![AWS IAM](https://img.youtube.com/vi/SXSqhTn2DuE/0.jpg)](https://www.youtube.com/watch?v=SXSqhTn2DuE)
 
 ### AWS VPC (Virtual Private Cloud)
 
@@ -633,6 +760,12 @@ echo "Backup completed: $BACKUP_FILE"
 - **Use Cases**: Web Hosting, Hybrid Cloud, Data Analytics.
 - **Best Practices**: Design subnets for use cases, Use least privilege (SGs, NACLs), Monitor traffic (VPC Flow Logs), Use NAT Gateways for secure private outbound access.
 
+#### AWS VPC
+
+AWS: Virtual Private Cloud Whiteboarding
+
+[![AWS VPC](https://img.youtube.com/vi/t7keOHhYYE0/0.jpg)](https://www.youtube.com/watch?v=t7keOHhYYE0)
+
 ### AWS Auto Scaling and Load Balancing
 
 - **Auto Scaling**: Automatically adjusts compute resources to meet demand.
@@ -643,6 +776,16 @@ echo "Backup completed: $BACKUP_FILE"
   - **Features**: Health Checks, Sticky Sessions, SSL Termination, Cross-Zone Load Balancing.
 - **How They Work Together**: Load Balancer distributes traffic; Auto Scaling adds/removes instances based on demand/health checks, ensuring performance and cost efficiency without downtime.
 - **Use Cases**: E-commerce platforms (seasonal spikes), Media Streaming, Web Applications.
+
+#### Auto Scaling and Load Balancing Videos
+
+AWS: Application Load Balancer
+
+[![AWS Application Load Balancer](https://img.youtube.com/vi/LBow4273Ym8/0.jpg)](https://www.youtube.com/watch?v=LBow4273Ym8)
+
+AWS EC2 Auto Scaling
+
+[![AWS EC2 Auto Scaling](https://img.youtube.com/vi/rcWgcFMlwFw/0.jpg)](https://www.youtube.com/watch?v=rcWgcFMlwFw)
 
 ### Amazon SQS & SNS
 
@@ -657,6 +800,12 @@ echo "Backup completed: $BACKUP_FILE"
   - **How it Works**: Publishers send to Topic -> SNS distributes to Subscribers via various protocols.
 - **SQS + SNS Together**: SNS fans out messages to multiple SQS queues for parallel, decoupled processing.
 
+#### SQS & SNS Videos
+
+SNS vs SQS Comparison
+
+[![SNS vs SQS Comparison](https://img.youtube.com/vi/mXk0MNjlO7A/0.jpg)](https://www.youtube.com/watch?v=mXk0MNjlO7A)
+
 ### AWS Route 53 (DNS)
 
 - **Definition**: Highly available and scalable Domain Name System (DNS) web service.
@@ -670,6 +819,12 @@ echo "Backup completed: $BACKUP_FILE"
 - **Hosted Zones**: Public (internet-accessible domains) and Private (internal AWS resources).
 - **Record Types**: A (IPv4), AAAA (IPv6), CNAME (alias), MX (mail exchange), TXT (text info, verification).
 - **Use Cases**: E-commerce (geolocation routing), Global Apps (latency routing), Disaster Recovery (failover routing).
+
+#### Route 53 Videos
+
+AWS: Amazon Route 53
+
+[![Amazon Route 53](https://img.youtube.com/vi/RGWgfhZByAI/0.jpg)](https://www.youtube.com/watch?v=RGWgfhZByAI)
 
 ### AWS SES (Simple Email Service)
 
@@ -775,6 +930,17 @@ echo "Backup completed: $BACKUP_FILE"
 
 - **Definition**: Facility housing computer systems, telecommunications, and storage.
 - **Purpose**: Centralized IT resource management, support critical applications, high availability/redundancy.
+
+### Data Centers Videos
+
+Google: What is a Data Center?
+
+[![What is a Data Center?](https://img.youtube.com/vi/Amow8BJm5Go/0.jpg)](https://www.youtube.com/watch?v=Amow8BJm5Go)
+
+AWS: Working in an AWS Data Center
+
+[![Working in an AWS Data Center](https://img.youtube.com/vi/bFYDrHYDns4/0.jpg)](https://www.youtube.com/watch?v=bFYDrHYDns4)
+
 - **Key Components**: Servers, Storage Systems, Networking Equipment, Cooling Systems, Power Supply Units, Security Systems. All interdependent.
 - **Design Principles**: Scalability, Redundancy (minimize single points of failure), Efficiency (power, cooling), Security (physical, virtual), Sustainability (eco-friendly).
 - **Architecture**: Layers (Physical, Virtual, Application), Topology (Star, Mesh, Leaf-Spine).
@@ -799,6 +965,16 @@ echo "Backup completed: $BACKUP_FILE"
 - **Applications**: Cloud Computing (foundation for IaaS), Development/Testing, Disaster Recovery, Education/Training.
 - **Future Trends**: Containerization, Edge Computing, VR/AR.
 
+### Virtualization Videos
+
+IBM: Virtualization Explained
+
+[![Virtualization Explained](https://img.youtube.com/vi/FZR0rG3HKIk/0.jpg)](https://www.youtube.com/watch?v=FZR0rG3HKIk)
+
+What is a Virtual Machine (VM) in 60 seconds!
+
+[![Virtual Machine in 60 seconds](https://img.youtube.com/vi/N5gworNCJuY/0.jpg)](https://www.youtube.com/watch?v=N5gworNCJuY)
+
 ## 12. Containerization (Docker & Kubernetes)
 
 - **Definition**: Lightweight virtualization method packaging applications and dependencies together into containers. Ensures consistency across environments.
@@ -822,6 +998,32 @@ echo "Backup completed: $BACKUP_FILE"
 - **Challenges**: Security (shared host OS vulnerabilities), Learning Curve (Docker/K8s), Resource Management, Compatibility Issues (legacy systems).
 - **Future**: Serverless containers, Edge computing, Alternatives (Podman, CRI-O).
 
+### Containerization Videos
+
+IBM: Containerization Explained
+
+[![Containerization Explained](https://img.youtube.com/vi/0qotVMX-J5s/0.jpg)](https://www.youtube.com/watch?v=0qotVMX-J5s)
+
+### Docker Videos
+
+Fireship: Docker in 100 Seconds
+
+[![Docker in 100 Seconds](https://img.youtube.com/vi/Gjnup-PuquQ/0.jpg)](https://www.youtube.com/watch?v=Gjnup-PuquQ)
+
+Docker Explained in Fun Story
+
+[![Docker Explained in Fun Story](https://img.youtube.com/vi/mxVkNGkzuxU/0.jpg)](https://www.youtube.com/watch?v=mxVkNGkzuxU)
+
+### Kubernetes Videos
+
+Fireship: Kubernetes in 100 Seconds
+
+[![Kubernetes in 100 Seconds](https://img.youtube.com/vi/PziYflu8cB8/0.jpg)](https://www.youtube.com/watch?v=PziYflu8cB8)
+
+ByteByteGo: Kubernetes Architecture in 6 Minutes
+
+[![Kubernetes Architecture](https://img.youtube.com/vi/TlHvYWVUZyc/0.jpg)](https://www.youtube.com/watch?v=TlHvYWVUZyc)
+
 ## 13. Linux Introduction
 
 - **Definition**: Open-source, Unix-like operating system kernel created by Linus Torvalds (1991). Powers >90% of internet servers.
@@ -840,6 +1042,12 @@ echo "Backup completed: $BACKUP_FILE"
 - **Advantages**: Cost (Free), Customizability, Performance, Security (resilient to malware), Community Support.
 - **Challenges**: Learning curve for beginners, Software compatibility (some proprietary software), Hardware drivers (rare cases).
 
+### Linux Videos
+
+Fireship: Linux in 100 Seconds
+
+[![Linux in 100 Seconds](https://img.youtube.com/vi/rrB13utjYV4/0.jpg)](https://www.youtube.com/watch?v=rrB13utjYV4)
+
 ## 14. Service-Level Agreements (SLAs)
 
 - **Definition**: Formal, legally binding agreement between a cloud service provider (CSP) and a customer defining measurable metrics (uptime, response time, support) and responsibilities. Ensures accountability.
@@ -851,6 +1059,12 @@ echo "Backup completed: $BACKUP_FILE"
 - **Challenges**: Complexity (measuring performance), Vagueness ("best effort"), Multi-tenancy impact, Enforcement (claiming penalties).
 - **Best Practices**: Negotiate clear metrics, Understand exclusions, Monitor compliance (third-party tools), Review/update SLAs.
 - **Examples**: AWS EC2 SLA (e.g., 99.99% for Enterprise Support), Azure credits for downtime, Google Cloud tiered SLAs.
+
+### SLA Videos
+
+What is a Service-Level Agreement?
+
+[![What is a Service-Level Agreement?](https://img.youtube.com/vi/V-ypx6Rmu_k/0.jpg)](https://www.youtube.com/watch?v=V-ypx6Rmu_k)
 
 ## 15. CI/CD (Continuous Integration/Continuous Deployment)
 
@@ -866,6 +1080,12 @@ echo "Backup completed: $BACKUP_FILE"
 - **Popular Tools**: Platforms (GitLab, GitHub Actions), Automation (Jenkins, Travis CI), Deployment (Docker, AWS CodeDeploy).
 - **Best Practices**: Automate everything, Test in production-like environments, Monitor pipelines.
 - **Future Trends**: AI-driven testing, GitOps (IaC), Serverless CI/CD.
+
+### CI/CD Videos
+
+Fireship: DevOps CI/CD Explained in 100 Seconds
+
+[![DevOps CI/CD Explained](https://img.youtube.com/vi/scEDHsr3APg/0.jpg)](https://www.youtube.com/watch?v=scEDHsr3APg)
 
 ## 16. Cloud Operating Systems
 
@@ -890,8 +1110,3 @@ echo "Backup completed: $BACKUP_FILE"
 - **Future Trends**: AI/ML in the Cloud, Edge Computing & IoT, Multi-Cloud & Hybrid Cloud, Quantum Computing, Serverless, Containerization growth.
 - **Career Paths**: Cloud Engineer, DevOps Engineer, Solutions Architect, Security Specialist.
 - **Certifications**: AWS (Cloud Practitioner, Solutions Architect, etc.), Azure Administrator, Google Cloud Associate Engineer, Kubernetes (CKA, CKAD), DevOps certs.
-
-## 19. Course Recap & Quiz Topics
-
-- **Recap**: Covered Virtualization/Containerization (Docker), Serverless/API Gateways, Storage/Databases (S3, RDS), Networking (VPC), CDN (CloudFront), Security/Compliance, Queues/Pub-Sub (SQS, SNS).
-- **Quiz 3 Topics**: AWS Security (KMS, WAF, Shield), Capacity Planning/Cloud Brokers, SLAs, CI/CD, Serverless, IaC (CloudFormation)/Monitoring/Logging.
