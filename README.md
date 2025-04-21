@@ -39,7 +39,7 @@ This repository contains comprehensive notes and resources for the CSE4267 Cloud
 
 | Category                     | Description                                       | Files                                                                                                                                                                                                |
 | ---------------------------- | ------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Comprehensive Notes**      | Detailed course notes covering all major topics   | [cloud_computing_note.md](cloud_computing_notes.md), [cloud_overview.md](cloud_overview.md)                                                                                                          |
+| **Comprehensive Notes**      | Detailed course notes covering all major topics   | [cloud_computing_notes.md](cloud_computing_notes.md), [cloud_overview.md](cloud_overview.md)                                                                                                         |
 | **PowerPoint Presentations** | Lecture slides for each topic                     | [View All Slides](#lecture-slides)                                                                                                                                                                   |
 | **PDF Resources**            | Additional reading materials and reference guides | [Cloud Computing for Dummies](PDFs/Cloud-Computing-for-Dummies-Judith-Hurwitz-Robin-Bloor-Marcia-Kaufman-Fern-Halper-Edisi-1-2010.pdf), [Course Outline](<PDFs/CSE4267 Cloud Computing Outline.pdf>) |
 | **Exam Preparation**         | Materials to help with test preparation           | [Exam Tips](PDFs/Cloud-Computing-Exam-Tips.pdf), [Practice Questions](PDFs/AWS-Service-Question-Examples.pdf)                                                                                        |
@@ -224,9 +224,14 @@ ssh user@host    # Connect to remote host
 - [TechWorld with Nana](https://www.youtube.com/c/TechWorldwithNana)
 - [freeCodeCamp.org](https://www.youtube.com/c/Freecodecamp)
 - [Cloud Guru](https://www.youtube.com/c/AcloudGuru)
+- [Fireship](https://www.youtube.com/c/Fireship)
+- [IBM Technology](https://www.youtube.com/c/IBMTechnology)
+- [ByteByteGo](https://www.youtube.com/c/ByteByteGo)
 
 ---
 
 ## Detailed Course Notes
 
 For in-depth technical details about AWS services, containerization, serverless computing, and more, refer to the [Cloud Computing Technical Notes](cloud_computing_notes.md).
+
+The technical notes include 36 curated video resources covering various cloud computing topics. Each video is placed directly after its related content section for easier reference and learning. Topics include AWS services, containerization with Docker and Kubernetes, virtualization, Linux, and more.
