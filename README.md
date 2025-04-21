@@ -19,14 +19,9 @@ This repository contains comprehensive notes and resources for the CSE4267 Cloud
   - [Course Materials](#course-materials)
   - [Key Topics Overview](#key-topics-overview)
   - [AWS Services Quick Reference](#aws-services-quick-reference)
-  - [Practical Guides](#practical-guides)
-    - [Docker Quick Start](#docker-quick-start)
-    - [AWS CLI Essential Commands](#aws-cli-essential-commands)
-    - [Linux Commands for Cloud](#linux-commands-for-cloud)
   - [Exam Preparation](#exam-preparation)
     - [Key Areas to Focus On](#key-areas-to-focus-on)
     - [Practice Resources](#practice-resources)
-  - [Shared Responsibility Model](#shared-responsibility-model)
   - [Lecture Slides](#lecture-slides)
   - [Cheat Sheets](#cheat-sheets)
   - [Online Learning Resources](#online-learning-resources)
@@ -91,52 +86,6 @@ mindmap
 | **Integration**  | SQS, SNS, API Gateway      | Message queues, pub/sub notifications, API management                      |
 | **Monitoring**   | CloudWatch, CloudTrail     | Metrics, logs, events, API activity tracking                               |
 
-## Practical Guides
-
-### Docker Quick Start
-
-```bash
-# Build an image
-docker build -t my-app .
-
-# Run a container
-docker run -d -p 8080:80 my-app
-
-# List running containers
-docker ps
-
-# Stop a container
-docker stop container-id
-```
-
-### AWS CLI Essential Commands
-
-```bash
-# List S3 buckets
-aws s3 ls
-
-# Create an EC2 instance
-aws ec2 run-instances --image-id ami-12345678 --instance-type t2.micro
-
-# List running EC2 instances
-aws ec2 describe-instances --filters "Name=instance-state-name,Values=running"
-```
-
-### Linux Commands for Cloud
-
-```bash
-# System information
-uname -a         # System information
-df -h            # Disk usage
-free -m          # Memory usage
-top              # Process information
-
-# Network
-ping host        # Test connectivity
-netstat -tulpn   # Show network connections
-ssh user@host    # Connect to remote host
-```
-
 ## Exam Preparation
 
 ### Key Areas to Focus On
@@ -153,10 +102,6 @@ ssh user@host    # Connect to remote host
 - [AWS Certified Solutions Architect](https://aws.amazon.com/certification/certified-solutions-architect-associate/)
 - [Practice Exams](PDFs/AWS-Service-Question-Examples.pdf)
 - [Class Test Examples](<PDFs/Class Test 1.pdf>)
-
-## Shared Responsibility Model
-
-![AWS Shared Responsibility Model](Images/Shared_Responsibility_Model_V2.59d1eccec334b366627e9295b304202faf7b899b.jpg)
 
 ## Lecture Slides
 

@@ -106,7 +106,11 @@
   - [15. CI/CD (Continuous Integration/Continuous Deployment)](#15-cicd-continuous-integrationcontinuous-deployment)
   - [16. Cloud Operating Systems](#16-cloud-operating-systems)
   - [17. Shared Responsibility Model](#17-shared-responsibility-model)
-  - [18. Future Trends \& Careers](#18-future-trends--careers)
+  - [18. Practical Guides for Cloud Computing](#18-practical-guides-for-cloud-computing)
+    - [Docker Quick Start](#docker-quick-start)
+    - [AWS CLI Essential Commands](#aws-cli-essential-commands)
+    - [Linux Commands for Cloud](#linux-commands-for-cloud)
+  - [19. Future Trends \& Careers](#19-future-trends--careers)
 
 ---
 
@@ -1060,8 +1064,62 @@ Fireship: DevOps CI/CD Explained in 100 Seconds
 - **Concept**: Defines security responsibilities between AWS and the customer.
 - **AWS Responsibility (Security OF the Cloud)**: Protecting the infrastructure that runs all AWS services (Hardware, Software, Networking, Facilities). Includes physical security, host OS, virtualization layer.
 - **Customer Responsibility (Security IN the Cloud)**: Securing applications and data deployed on AWS. Includes customer data, platform/applications/IAM, OS/network/firewall config (for IaaS), client-side/server-side encryption, network traffic protection. Responsibility varies by service type (more for IaaS, less for SaaS).
+- **Visual Representation**: The model is often represented as a division of responsibilities, with AWS handling the lower-level infrastructure security and customers handling application and data security.
 
-## 18. Future Trends & Careers
+![AWS Shared Responsibility Model](Images/Shared_Responsibility_Model_V2.59d1eccec334b366627e9295b304202faf7b899b.jpg)
+
+- **Service-Specific Responsibilities**:
+  - **IaaS**: Customer has more responsibility (OS patching, network configuration, etc.)
+  - **PaaS**: Shared responsibility with AWS handling more of the infrastructure
+  - **SaaS**: AWS handles most of the responsibility, customer focuses on data and access management
+
+## 18. Practical Guides for Cloud Computing
+
+### Docker Quick Start
+
+```bash
+# Build an image
+docker build -t my-app .
+
+# Run a container
+docker run -d -p 8080:80 my-app
+
+# List running containers
+docker ps
+
+# Stop a container
+docker stop container-id
+```
+
+### AWS CLI Essential Commands
+
+```bash
+# List S3 buckets
+aws s3 ls
+
+# Create an EC2 instance
+aws ec2 run-instances --image-id ami-12345678 --instance-type t2.micro
+
+# List running EC2 instances
+aws ec2 describe-instances --filters "Name=instance-state-name,Values=running"
+```
+
+### Linux Commands for Cloud
+
+```bash
+# System information
+uname -a         # System information
+df -h            # Disk usage
+free -m          # Memory usage
+top              # Process information
+
+# Network
+ping host        # Test connectivity
+netstat -tulpn   # Show network connections
+ssh user@host    # Connect to remote host
+```
+
+## 19. Future Trends & Careers
 
 - **Future Trends**: AI/ML in the Cloud, Edge Computing & IoT, Multi-Cloud & Hybrid Cloud, Quantum Computing, Serverless, Containerization growth.
 - **Career Paths**: Cloud Engineer, DevOps Engineer, Solutions Architect, Security Specialist.
