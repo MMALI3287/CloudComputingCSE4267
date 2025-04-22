@@ -48,7 +48,6 @@ mindmap
     Fundamentals
       Definition & Evolution
         On-demand Computing Services
-        Mainframe to Client-Server to Cloud
         Utility Computing Model
       Key Characteristics
         On-Demand Self-Service
@@ -57,215 +56,78 @@ mindmap
         Rapid Elasticity
         Measured Service
       Service Models
-        IaaS
-          EC2, Google Compute Engine
-          Virtual Machines & Infrastructure
-          High Control, Complex Management
-        PaaS
-          Elastic Beanstalk, Google App Engine
-          Development Platforms
-          Focus on Code, Not Infrastructure
-        SaaS
-          Gmail, Salesforce, Office 365
-          Ready-to-use Applications
-          Minimal Management
-        FaaS
-          Lambda, Azure Functions
-          Event-driven Computing
-          Serverless Architecture
+        IaaS (EC2, Google Compute)
+        PaaS (Elastic Beanstalk, App Engine)
+        SaaS (Gmail, Salesforce)
+        FaaS (Lambda, Azure Functions)
       Deployment Models
-        Public Cloud
-          Available to General Public
-          AWS, Azure, GCP
+        Public Cloud (AWS, Azure, GCP)
         Private Cloud
-          Single Organization
-          Enhanced Security & Control
         Hybrid Cloud
-          Combination of Public & Private
-          Flexibility & Data Sovereignty
         Community Cloud
-          Shared by Several Organizations
-          Common Concerns & Requirements
     AWS Services
       Compute
-        EC2
-          Virtual Servers
-          Multiple Instance Types
-          Auto Scaling Capabilities
-        Lambda
-          Serverless Functions
-          Event-driven Execution
-          Pay-per-use Model
-        ECS/EKS
-          Container Orchestration
-          Docker & Kubernetes Management
-        Elastic Beanstalk
-          PaaS Solution
-          Application Deployment
-          Environment Management
+        EC2 (Virtual Servers)
+        Lambda (Serverless)
+        ECS/EKS (Containers)
+        Elastic Beanstalk (PaaS)
       Storage
-        S3
-          Object Storage
-          99.999999999% Durability
-          Multiple Storage Classes
-        EBS
-          Block Storage for EC2
-          Persistent Volumes
-          Snapshot Capabilities
-        EFS
-          Managed NFS
-          Shared File System
-          Auto-scaling Storage
-        Glacier
-          Long-term Archival
-          Low-cost Storage
-          Various Retrieval Options
+        S3 (Object Storage)
+        EBS (Block Storage)
+        EFS (File System)
+        Glacier (Archival)
       Security
-        IAM
-          Identity & Access Management
-          Users, Groups, Roles
-          Policy-based Permissions
-        KMS
-          Key Management Service
-          Encryption Key Control
-          Integration with AWS Services
-        WAF
-          Web Application Firewall
-          Traffic Filtering
-          Protection Against Exploits
-        Shield
-          DDoS Protection
-          Network & Transport Layer Defense
-          Application Layer Protection
+        IAM (Identity & Access)
+        KMS (Encryption)
+        WAF (Web Protection)
+        Shield (DDoS Protection)
       Networking
-        VPC
-          Virtual Private Cloud
-          Isolated Network Environment
-          Subnets & Security Groups
-        Route 53
-          DNS Service
-          Domain Registration
-          Health Checking & Routing
-        CloudFront
-          Content Delivery Network
-          Global Edge Locations
-          Low-latency Content Delivery
+        VPC (Virtual Network)
+        Route 53 (DNS)
+        CloudFront (CDN)
         API Gateway
-          API Management
-          Request Routing & Transformation
-          Authentication & Authorization
       Databases
-        RDS
-          Relational Database Service
-          Multiple Engines (MySQL, PostgreSQL)
-          Automated Backups & Maintenance
-        DynamoDB
-          NoSQL Database
-          Millisecond Performance
-          Auto-scaling Capabilities
-        ElastiCache
-          In-memory Caching
-          Redis & Memcached
-          Performance Acceleration
-        Redshift
-          Data Warehousing
-          Petabyte-scale Analytics
-          Columnar Storage
+        RDS (Relational)
+        DynamoDB (NoSQL)
+        ElastiCache (In-memory)
+        Redshift (Data Warehouse)
       Integration
-        SQS
-          Simple Queue Service
-          Message Queuing
-          Application Decoupling
-        SNS
-          Simple Notification Service
-          Pub/Sub Messaging
-          Multiple Endpoints
-        SES
-          Simple Email Service
-          Transactional Emails
-          Marketing Communications
+        SQS (Message Queue)
+        SNS (Notifications)
+        SES (Email)
       Monitoring
-        CloudWatch
-          Metrics & Alarms
-          Log Management
-          Dashboards & Visualizations
-        CloudTrail
-          API Activity Tracking
-          Compliance Auditing
-          Security Analysis
+        CloudWatch (Metrics & Logs)
+        CloudTrail (API Activity)
         Cost Explorer
-          Cost Visualization
-          Usage Analysis
-          Budget Management
     Infrastructure
       Data Centers
-        Physical Facilities
         Tier Levels (I-IV)
-        Power & Cooling Systems
-        Security Measures
+        Physical Security
       Virtualization
         Hypervisors
-          Type 1 (Bare Metal)
-          Type 2 (Hosted)
         Resource Abstraction
-        VM Management
-        Hardware Utilization
       Containerization
         Docker
-          Container Runtime
-          Images & Containers
-          Dockerfile & Compose
         Kubernetes
-          Container Orchestration
-          Pods & Deployments
-          Service Discovery
-          Auto-scaling & Self-healing
     Operations
       Linux
-        Command Line Interface
-        Shell Scripting
+        CLI & Shell Scripting
         System Administration
-        Package Management
       CI/CD
         Continuous Integration
-          Automated Testing
-          Code Quality
         Continuous Delivery
-          Automated Deployment
-          Release Management
         DevOps Practices
-          Infrastructure as Code
-          Automation Pipelines
-      Monitoring
+      Monitoring & SLAs
         Performance Metrics
-        Log Analysis
-        Alerting Systems
-        Observability
-      SLAs
-        Service Level Agreements
         Uptime Guarantees
-        Performance Metrics
-        Remediation Policies
     Advanced Topics
       Cloud OS
-        Resource Management
-        Multi-tenancy Support
-        API-driven Control
-        Distributed Systems
-      Shared Responsibility
-        Provider Responsibilities
-          Infrastructure Security
-          Physical Security
-          Network Security
-        Customer Responsibilities
-          Data Security
-          Identity Management
-          Application Security
+      Shared Responsibility Model
+        Provider vs Customer
       Future Trends
         Edge Computing
-        Serverless Expansion
-        AI/ML Integration
-        Multi-cloud Strategies
+        Serverless
+        Multi-cloud
 ```
 
 ## AWS Services Quick Reference
