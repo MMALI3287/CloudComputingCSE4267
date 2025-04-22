@@ -141,6 +141,8 @@ mindmap
 
 ## Cheat Sheets
 
+- [Cloud Computing Exam Cheat Sheet](cloud_cheat_sheet.md)
+- [AWS Services Cheat Sheet](aws_services_cheat_sheet.md)
 - [Docker Cheatsheet](PDFs/docker_cheatsheet.pdf)
 - [Linux Command Line Cheat Sheet](<PDFs/Linux Command Line Cheat Sheet.pdf>)
 
