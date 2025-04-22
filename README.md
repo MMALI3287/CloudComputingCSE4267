@@ -34,7 +34,7 @@ This repository contains comprehensive notes and resources for the CSE4267 Cloud
 
 | Category                     | Description                                       | Files                                                                                                                                                                                                |
 | ---------------------------- | ------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Comprehensive Notes**      | Detailed course notes covering all major topics   | [cloud_computing_notes.md](cloud_computing_notes.md), [cloud_computing_concepts_and_foundations.md](cloud_computing_concepts_and_foundations.md)                                                     |
+| **Comprehensive Notes**      | Detailed course notes covering all major topics   | [cloud_computing_notes.md](Markdown/cloud_computing_notes.md), [cloud_computing_concepts_and_foundations.md](Markdown/cloud_computing_concepts_and_foundations.md)                                   |
 | **PowerPoint Presentations** | Lecture slides for each topic                     | [View All Slides](#lecture-slides)                                                                                                                                                                   |
 | **PDF Resources**            | Additional reading materials and reference guides | [Cloud Computing for Dummies](PDFs/Cloud-Computing-for-Dummies-Judith-Hurwitz-Robin-Bloor-Marcia-Kaufman-Fern-Halper-Edisi-1-2010.pdf), [Course Outline](<PDFs/CSE4267 Cloud Computing Outline.pdf>) |
 | **Exam Preparation**         | Materials to help with test preparation           | [Exam Tips](PDFs/Cloud-Computing-Exam-Tips.pdf), [Practice Questions](PDFs/AWS-Service-Question-Examples.pdf), [Quiz 2 Key Points](PDFs/Quize-2-key_point.pdf)                                       |
@@ -141,8 +141,8 @@ mindmap
 
 ## Cheat Sheets
 
-- [Cloud Computing Exam Cheat Sheet](cloud_cheat_sheet.md)
-- [AWS Services Cheat Sheet](aws_services_cheat_sheet.md)
+- [Cloud Computing Exam Cheat Sheet](Markdown/cloud_cheat_sheet.md)
+- [AWS Services Cheat Sheet](Markdown/aws_services_cheat_sheet.md)
 - [Docker Cheatsheet](PDFs/docker_cheatsheet.pdf)
 - [Linux Command Line Cheat Sheet](<PDFs/Linux Command Line Cheat Sheet.pdf>)
 
@@ -179,6 +179,6 @@ mindmap
 
 ## Detailed Course Notes
 
-For in-depth technical details about AWS services, containerization, serverless computing, and more, refer to the [Cloud Computing Technical Notes](cloud_computing_notes.md) and [Cloud Computing Concepts and Foundations](cloud_computing_concepts_and_foundations.md).
+For in-depth technical details about AWS services, containerization, serverless computing, and more, refer to the [Cloud Computing Technical Notes](Markdown/cloud_computing_notes.md) and [Cloud Computing Concepts and Foundations](Markdown/cloud_computing_concepts_and_foundations.md).
 
 The technical notes include 36 curated video resources covering various cloud computing topics. Each video is placed directly after its related content section for easier reference and learning. Topics include AWS services, containerization with Docker and Kubernetes, virtualization, Linux, and more.
